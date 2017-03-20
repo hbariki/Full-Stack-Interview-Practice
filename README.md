@@ -79,3 +79,8 @@ if __name__ = '__main__'
 6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
 
 -I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js and I would like to explore Node.js in more detail during the upcoming year.
+
+References:
+- http://stackoverflow.com/questions/33069476/simulating-rolling-2-dice-in-python
+- https://www.instartlogic.com/blog/4-common-web-application-security-attacks-and-what-you-can-do-prevent-them
+- Udacity Project
