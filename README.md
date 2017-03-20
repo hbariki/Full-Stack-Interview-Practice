@@ -70,12 +70,11 @@ def roll_dice(sides):
     die2 = random.randint(1, sides)
     
     /* Return the results of the dice rolled as JSON string, sorted by key
-    return json.dumps({'die1' :die1 'die2':die2}, sortKeys = True})
+    return json.dumps({'die1' :die1 'die2':die2}, sort_keys = True})
 
 if __name__ = '__main__'
  app.debug = True
  app.run()
 ```
 6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
-
--I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js and I would like to explore Node.js in more detail during the upcoming year.
+  -I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js and I would like to explore Node.js in more detail during the upcoming year.
