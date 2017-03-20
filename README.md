@@ -33,11 +33,13 @@ def list(strings):
 ```  
 If we give the user input for the list. It prints the unordered list with the list items.
 Output : 
+```
 <ul>
 <li>Micheal</li>
 <li>Lordan</li>
 </ul>
 
+```
 4. List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?
   -	SQL injection attacks to gain access to the database, spoof  a user’s identity,  and destroy or alter data in the database. SQL injection occurs when malicious SQL statements are inserted into form fields to try and gather information from the database. This information enables the hacker to access, modify or destroy information in the database. With SQL injection a hacker can change the price of a product, and gain customer information such as credit card numbers, password and contact information.
   -	Distributed Denial of Service Attacks (DDoS). DDoS attacks generate requests from thousands  of IP addresses in an attempt to flood a site with traffic, making it impossible for the server to respond to requests. DDoS attacks or bots can slow a site down or make it temporarily unavailable.
