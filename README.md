@@ -49,4 +49,32 @@ Output :
   1. Implementing CAPTCHA or prompting users to answer questions. This ensures that a form or request is being submitted by a human and not a bot.
   2. Use a Web Application Firewall to monitor your network and block potential attacks.
  
+5. Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns    the result in JSON. You should include a brief explanation of your code.
+```
+from flask import Flask
+app = Flask(__name__)
 
+import json
+import random
+
+@app.route('/)
+def hello_world():
+  return 'Hello world!'
+  
+@app.route('/roll_dice/<int:sides>/json')
+def roll_dice(sides):
+    /* Return the result of two dice with user specified number of sides being rolled as a json object
+    
+    /* Assign the result of the die roll
+    die1 = random.randint(1, sides)
+    die2 = random.randint(1, sides)
+    
+    /* Return the results of the dice rolled as JSON string, sorted by key
+    return json.dumps({'die1' :die1 'die2':die2}, sortKeys = True})
+
+if __name__ = '__main__'
+ app.debug = True
+ app.run()
+```
+6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
+-I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js and I would like to explore Node.js in more detail during the upcoming year.
