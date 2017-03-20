@@ -46,8 +46,8 @@ Output :
   -	Cross Site Request Forgery (CSRF) attacks. CSRF attacks occur when a user is tricked into clicking a link or downloading an image that executes unwanted actions on an unauthenticated user session.
   
   Attack-specific solutions include:
-  1. Implementing CAPTCHA or prompting users to answer questions. This ensures that a form or request is being submitted by a human and not a bot.
-  2. Use a Web Application Firewall to monitor your network and block potential attacks.
+  -Implementing CAPTCHA or prompting users to answer questions. This ensures that a form or request is being submitted by a human and not a bot.
+  - Use a Web Application Firewall to monitor your network and block potential attacks.
  
  
 5. Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns    the result in JSON. You should include a brief explanation of your code.
