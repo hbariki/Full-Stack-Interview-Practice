@@ -83,4 +83,4 @@ if __name__ = '__main__'
 References:
 - http://stackoverflow.com/questions/33069476/simulating-rolling-2-dice-in-python
 - https://www.instartlogic.com/blog/4-common-web-application-security-attacks-and-what-you-can-do-prevent-them
-- Udacity Project
+
