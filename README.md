@@ -18,20 +18,18 @@ Interview questions
  
 n = ['Micheal', 'Lorean']
 
-def list(strings):  
-    lst = '<ul>'
-    /* Iteration over strings
-    for s in strings:
-        /* append the list items in the strings
-        lst += '<li>%s</li>' % s
-    /* append the closing of unordered list   
-    lst += '</ul>'
-
-    /* returns unorderedlist    
-    return lst
-
-print list(n);
-
+def list(strings):
+  lst = '<ul>'
+  /* Iteration over strings
+  for s in strings:
+    /* append the list items in the strings
+    lst += ' <li>%s</li> ' %s
+    /* append the closing unordered list
+  lst += '</ul>'
+    /* returns unordered list
+  return lst
+  print list(n);
+    
 If we give the user input for the list. It prints the unordered list with the list items.
 Output : 
 <ul>
