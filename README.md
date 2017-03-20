@@ -15,7 +15,7 @@ Interview questions
    The challenges for me was when I started working with this application I had a minimal Knowledge of flask and SQLAlchemy database. So I had to explore about flask and SQLAlchemy,  One more challenge was to organize the code well and understand how the session works, as well as working with G+ Login. With the help of Udacity coaches and reading the recommended documentation about the flask and looking into the examples provided in the lessons, helped to understand and made this application possible.
 
 3. Wite a function in Python that takes a list of strings and return a single string that is an HTML unordered list(<ul>….</ul>) of those strings. You should include a brief explanation of your code. Then, what would you have to consider  if the original list was provided by user input?
- 
+``` 
 n = ['Micheal', 'Lorean']
 
 def list(strings):
@@ -29,7 +29,8 @@ def list(strings):
     /* returns unordered list
   return lst
   print list(n);
-    
+  
+```  
 If we give the user input for the list. It prints the unordered list with the list items.
 Output : 
 <ul>
