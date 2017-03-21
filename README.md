@@ -60,7 +60,7 @@ def roll_dice(sides):
     die2 = random.randint(1, sides)
     
     # Return the results of the dice rolled as JSON string, sorted by key
-    return json.dumps({'die1' :die1 'die2':die2}, sort_keys = True)
+    return json.dumps({'die1' :die1 , 'die2':die2}, sort_keys = True)
 
 if __name__ == '__main__':
  app.debug = True
