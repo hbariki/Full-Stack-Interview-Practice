@@ -64,16 +64,16 @@ def hello_world():
   
 @app.route('/roll_dice/<int:sides>/json')
 def roll_dice(sides):
-    /* Return the result of two dice with user specified number of sides being rolled as a json object
+    #Return the result of two dice with user specified number of sides being rolled as a json object
     
-    /* Assign the result of the die roll
+    # Assign the result of the die roll
     die1 = random.randint(1, sides)
     die2 = random.randint(1, sides)
     
-    /* Return the results of the dice rolled as JSON string, sorted by key
-    return json.dumps({'die1' :die1 'die2':die2}, sort_keys = True})
+    # Return the results of the dice rolled as JSON string, sorted by key
+    return json.dumps({'die1' :die1 'die2':die2}, sort_keys = True)
 
-if __name__ = '__main__'
+if __name__ == '__main__':
  app.debug = True
  app.run()
 ```
