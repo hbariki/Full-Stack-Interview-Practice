@@ -9,37 +9,25 @@ Interview questions
    That was my first ever influential thing that happened and helped me to pursue web development.
   
 2. Tell me about the web application you have built. Why did you choose to build it? What did you learn? What challenges did you face and how did you overcome them?
- -  I build a Restaurant Menu application as the part of the Full Stack nanodegree and hosted it on AWS server. The application basically shows the list of restaurants
-    and their menus.
+ -  I build a Restaurant Menu application as the part of the Full Stack nanodegree and hosted it on AWS server. The application basically shows the list of restaurants and their menus, users can register through G+ Login. Registered users can create, edit, delete, update the restaurants and their menus.
  - I have used Flask framework in this application,  learned about RESTful APIs that serve JSON and XML output, and front-end HTML/CSS/JS that renders the Restaurants and their Menus. In this application, I have also learned how the session and routing works.
-   The challenges for me was when I started working with this application I had a minimal Knowledge of flask and SQLAlchemy database. So I had to explore about flask and SQLAlchemy,  One more challenge was to organize the code well and understand how the session works, as well as working with G+ Login. With the help of Udacity coaches and reading the recommended documentation about the flask and looking into the examples provided in the lessons, helped to understand and made this application possible.
+   The challenges for me was when I started working with this application I had a minimal Knowledge of flask and SQLAlchemy database. So I had to explore about flask and SQLite,One more challenge was to organize the code well and understand how the session works, as well as working with G+ Login. With the help of Udacity coaches and reading the recommended documentation about the flask and looking into the examples provided in the lessons, helped to understand and made this application possible.As I have learned basic things of a web framework while working with flask, It will be easy for me to work with Django.
 
 3. Wite a function in Python that takes a list of strings and return a single string that is an HTML unordered list(<ul>….</ul>) of those strings. You should include a brief explanation of your code. Then, what would you have to consider  if the original list was provided by user input?
 ``` 
-n = ['Micheal', 'Lorean']
-
 def list(strings):
   lst = '<ul>'
-  /* Iteration over strings
+  # Iteration over strings
   for s in strings:
-    /* append the list items in the strings
-    lst += ' <li>%s</li> ' %s
-    /* append the closing unordered list
+    # append the list items in the strings
+    lst += '<li>%s</li>' %s
+    # append the closing unordered list
   lst += '</ul>'
-    /* returns unordered list
+    # returns unordered list
   return lst
-  print list(n);
-  
-```  
-If we give the user input for the list. It prints the unordered list with the list items.
-Output : 
-```
-<ul>
-<li>Micheal</li>
-<li>Lordan</li>
-</ul>
-
-```
+ 
+  ``` 
+  If the original list is supplied by user input, the function should check if the input is a list, and if the list contains strings.
 4. List 2-3 attacks that web applications are vulnerable to. How do these attacks work? How can we prevent those attacks?
   -	SQL injection attacks to gain access to the database, spoof  a user’s identity,  and destroy or alter data in the database. SQL injection occurs when malicious SQL statements are inserted into form fields to try and gather information from the database. This information enables the hacker to access, modify or destroy information in the database. With SQL injection a hacker can change the price of a product, and gain customer information such as credit card numbers, password and contact information.
   -	Distributed Denial of Service Attacks (DDoS). DDoS attacks generate requests from thousands  of IP addresses in an attempt to flood a site with traffic, making it impossible for the server to respond to requests. DDoS attacks or bots can slow a site down or make it temporarily unavailable.
@@ -48,7 +36,7 @@ Output :
   Attack-specific solutions include:
   -Implementing CAPTCHA or prompting users to answer questions. This ensures that a form or request is being submitted by a human and not a bot.
   - Use a Web Application Firewall to monitor your network and block potential attacks.
- 
+  - The best practices that can be used on an ongoing basis to protect your application and users are Code reviews, bug bounty programs      and code scanners should be implemented throughout the application lifecycle. Code reviews can help spot vulnerable code early in          development phase, dynamic and static code scanners can do automatic checks for vulnerabilities, and bug bounty programs enable            professional pen testers to find bugs in the website.
  
 5. Here is some starter code for a Flask Web Application. Expand on that and include a route that simulates rolling two dice and returns    the result in JSON. You should include a brief explanation of your code.
 ```
@@ -79,7 +67,7 @@ if __name__ == '__main__':
 ```
 6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
 
--I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js and I would like to explore Node.js in more detail during the upcoming year.
+-I would like to be part of an environment that promotes learning and professional career growth. While progressing through the nanodegree program along with Python, I have also started learning Node.js, I have build a employee application using technologies like Node.js, Angular.js, PostgresQL. Employee application displays the Information of the employee where we can create, edit, update, delete the details of employee. I would like to explore Node.js in more detail during the upcoming year.
 
 References:
 - http://stackoverflow.com/questions/33069476/simulating-rolling-2-dice-in-python
