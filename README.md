@@ -67,6 +67,9 @@ if __name__ == '__main__':
  app.debug = True
  app.run()
 ```
+I have  added the functionality to roll two dice and return the result as a json string. I've included the ability to pass the number of sides the dice have to the function since it wasn't specified and expands the functionality. The result of each die roll is assigned to a variable. The function returns the results of json.dumps(), sorted by key.
+
+
 6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
 
 -I would like to be part of an environment that promotes learning and professional career growth. 
