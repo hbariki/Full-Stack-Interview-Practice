@@ -73,7 +73,7 @@ I have  added the functionality to roll two dice and return the result as a json
 6. If you were to start your full-stack developer position today, what would be your goals a year from If now?
 
 -I would like to be part of an environment that promotes learning and professional career growth. 
--While progressing through the nanodegree program along with Python using Flask framework I worked on couple of the projects. Besides, I have  also started learning Node.js, I developed an Employee application using Node.js, Angular.js, postgresSQL. It displays the details of the employees and users will be able to create, update, delete, edit the details.
+- While progressing through the nanodegree program along with Python using Flask framework I worked on couple of the projects. Besides, I   have  also started learning Node.js, I developed an Employee application using Node.js, Angular.js, postgresSQL. It displays the details   of the employees and users will be able to create, update, delete, edit the details.
 - For the next 12 months I am looking forward to learn django, explore flask and Node.js in more detail.
 - As a medical industry is a vast industry, I have always been very curious to learn about the gentics and also new techniques which are     related to medical industry. It would be an exciting opportunity for me. If opportunity is provided I would like to know more about this   in detail as well.  
 
